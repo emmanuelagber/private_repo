@@ -1,0 +1,67 @@
+body {
+    font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-variation-settings:
+            "wdth" 100;
+            background-color: #FFFFFF;
+            
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.container .left, .container .right{
+
+    width: 45%;
+   display: grid;
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #E0E0E0;
+}
+
+
+.container .left h2{
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.container div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+   
+.grid-items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+   
+}
+
+.grid-items  :hover {
+    
+ transition: transform 0.3s ease;
+    transform: scale(1.05);
+    /* background-color: gray; */
+    cursor: pointer;
+   
+
+}   
+
+.listing{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 10px;
+}

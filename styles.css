@@ -1,0 +1,63 @@
+.white{
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.orange {
+    background-color: hsl(31, 77%, 52%);
+    padding: 10px;
+    max-width: 230px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px 5px;
+    min-height: 300px;
+  
+}
+
+.sedans-container img{
+       margin: 10px 5px;
+}
+
+.sedans-info{
+    color: hsl(0, 0%, 95%);
+
+    margin-top: 10px;
+    
+}
+
+.sedans-description p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 20px 0;
+}
+
+.button-sedans button{
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px;
+    text-align: center;
+    max-width: 100px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 15px;
+
+}
+
+@media screen and (max-width: 768px) {
+    .white{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+
+    }
+    .orange{
+        border-radius: 10px 10px 0 0;
+    }
+}
